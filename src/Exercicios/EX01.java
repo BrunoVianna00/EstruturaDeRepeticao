@@ -9,9 +9,9 @@ public class EX01 {
         int soma = 0;
         
         
-        for(int cont = 1;cont < 50; cont++){
-            soma = (int) (soma + pow(soma,cont));
-            
+        for(int cont = 1;cont <= 50; cont++){
+            soma = soma + cont;
+            System.out.println(cont);
         }
         System.out.println(soma);
         
